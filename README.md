@@ -230,26 +230,7 @@ If you are using a 3rd party hosting service, you may need a custom build pipeli
 For more information follow this [article](https://www.pluralsight.com/guides/deploying-github-pages-with-create-react-app).
 
 
-## Contributing
-
-Would you like to see a change to this template? Fill out a feature request, issue, or put up a PR with your proposed change. Addtionally, please include yourself in the [contributors file](/open_source/contributors.md) to mark your involvement.
-
-
-## Thanks
-
-If you have made it this far, thank you for taking a look at this template, I hope you find it very helpful. Additionally, I would like to thank the following resources that helped me along the way:
-
-* [DALL E Image Generator](https://openai.com/dall-e-2)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [The Net Ninja Youtube Channel](https://www.youtube.com/@NetNinja/videos)
-* [Brittany Chiang's site](https://brittanychiang.com/)
-* [The Dev Dojo](https://devdojo.com/tailwindcss/buttons)
 
 Have a great day! 
-
-```
-So whether you eat or drink or whatever you do, do it all for the glory of God. 
-
-1 Corinthians 10:31 NIV
 ```
                 
