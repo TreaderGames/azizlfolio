@@ -1,6 +1,6 @@
-export const NAME = "Tim Plette"
+export const NAME = "Aziz Lokhandwala"
 
-export const JOB_TITLE = "Website Portfolio Designer";
+export const JOB_TITLE = "Senior Game Developer";
 
 export const DESC = 
-`Easy to use portfolio website template: Bring your job hunt or admission app to life!`
+`Senior Unity developer and team lead, specialized in mobile games.`;

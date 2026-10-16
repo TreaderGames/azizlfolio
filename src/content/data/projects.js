@@ -22,6 +22,15 @@ export const projectInformation = [
         "video":'<iframe style="height:250px; width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
         //Use this instead of youtube width and height -> style="height:250px; width: 100%;border-radius: 0.5rem;"
     },
+        {
+        "title":"Project Title WITH VIDEO",
+        "name":"Optional embed video",
+        "date":"Rick roll time",
+        "data":"Use the 'embed' option on Youtube to get an iframe. Paste that into the 'video' field. You can modify the style settings, like the one below, or use the one's provided by Youtube.",
+        "href":"javascript:alert('Href can be different from Video.')",
+        "video":'<iframe style="height:250px; width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        //Use this instead of youtube width and height -> style="height:250px; width: 100%;border-radius: 0.5rem;"
+    },
     {
         "title":"4th example!",
         "name":"Did you know these cards scroll?",
