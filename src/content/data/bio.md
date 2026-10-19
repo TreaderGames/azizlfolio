@@ -2,7 +2,21 @@
 slug: "/bio"
 title: "Who is ?"
 page: "bio"
-content: "Content here"
 ---
 
-<p>PLAIN TEXT TEST 123</p>
+
+# Welcome!
+
+This is a paragraph of text on my webpage.
+
+## About Me
+
+I am a developer interested in game development.
+
+I have worked on several projects using Unity.
+
+## My Skills
+
+- C#
+- Unity
+- Game Development
