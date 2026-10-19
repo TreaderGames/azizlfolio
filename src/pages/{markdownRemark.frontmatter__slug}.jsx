@@ -1,26 +1,31 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import SideBarLayout from "../components/SideBarLayout"
-import RegularTextBar from "../components/RegularTextBar"
 
 export default function BlogPostTemplate({ data }) {
-  const { markdownRemark } = data 
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
+
   return (
-    <div>
-        <SideBarLayout name={frontmatter.page}>
-            <RegularTextBar 
-                name={frontmatter.page}
-                title={frontmatter.title}
-                subTitle={frontmatter.date}
-                content={
-                    <div className=""
-                        dangerouslySetInnerHTML={{ __html: html }}
-                    />
-                }
-            />
-        </SideBarLayout>
-    </div>
+    <SideBarLayout name={frontmatter.page}>
+      <h1>{frontmatter.title}</h1>
+
+      <p style={{ color: "red", fontWeight: "bold" }}>
+        Generated HTML length: {html?.length ?? "undefined"}
+      </p>
+
+      <pre
+        style={{
+          color: "red",
+          whiteSpace: "pre-wrap",
+          textAlign: "left"
+        }}
+      >
+        {html || "GATSBY HTML IS EMPTY"}
+      </pre>
+
+      <div dangerouslySetInnerHTML={{ __html: html || "" }} />
+    </SideBarLayout>
   )
 }
 

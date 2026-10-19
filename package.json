@@ -1,6 +1,6 @@
 {
   "name": "Portfolio-Website-Template",
-  "homepage": "https://Josh-Beck.github.io/Portfolio-Website-Template",
+  "homepage": "https://treadergames.github.io/azizlfolio",
   "private": true,
   "description": "Open Source Portfolio Website Template",
   "version": "1.0.0",
@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Josh-Beck/Portfolio-Website-Template"
+    "url": "https://treadergames.github.io/azizlfolio"
   },
   "bugs": {
-    "url": "https://github.com/Josh-Beck/Portfolio-Website-Template"
+    "url": "https://treadergames.github.io/azizlfolio"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
