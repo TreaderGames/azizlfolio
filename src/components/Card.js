@@ -14,9 +14,11 @@ export default function Card(props) {
                         cardSubTitle={props.cardSubTitle} 
                         cardDate={props.cardDate}
                         cardData={props.cardData} 
+                        cardDataType={props.dataType}
                         skill={props.skill}
                         href={props.href}
                         video={props.video}
+                        
                     />                    
                 </div>
 

@@ -15,8 +15,28 @@ export default function CardContent(props) {
                 </div>
 
                 <div className="text-xl pt-3 paragraph-text">
-                    {props.cardData}
-                </div>     
+                    {props.cardDataType === "list" ? (
+    <>
+                    {console.log("IF branch: Rendering bullet list", {
+                        cardDataType: props.cardDataType,
+                        cardData: props.cardData
+                    })}
+                    <ul className="list-disc list-inside">
+                    {props.cardData.split("\n").filter(Boolean).map((item, index) => (
+                    <li key={index}>{item}</li>
+            ))}
+        </ul>
+    </>
+) : (
+    <>
+        {console.log("ELSE branch: Rendering plain text", {
+            cardDataType: props.cardDataType,
+            cardData: props.cardData
+        })}
+        {props.cardData}
+    </>
+)}
+            </div>     
             </div>
     )
 }

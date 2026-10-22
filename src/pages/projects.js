@@ -13,6 +13,7 @@ export default function Projects() {
                             cardSubTitle={project.name} 
                             cardDate={project.date}
                             cardData={project.data}
+                            dataType={project.dataType}
                             href={project.href}
                             video={project.video} />
                 ))}
