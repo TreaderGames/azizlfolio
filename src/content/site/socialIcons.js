@@ -10,14 +10,6 @@ export const icons = [
     },
     { 
         name: <FaGithub size={30} />,
-        href: 'https://github.com/Josh-Beck/Portfolio-Website-Template'
+        href: 'https://github.com/TreaderGames'
     },
-    {
-        name: <SiHackthebox size={30} />,
-        href: 'https://app.hackthebox.com/'
-    },
-    {
-        name: <PiYoutubeLogoFill size={30} />,
-        href: 'https://www.youtube.com/'
-    }
 ]

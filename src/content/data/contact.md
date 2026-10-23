@@ -7,4 +7,4 @@ page: "contact"
 
 Email: [azizlokhandwala12@gmail.com](mailto:azizlokhandwala12@gmail.com).
 
-Mob No: +917228458214
+Mob No: +917338458214

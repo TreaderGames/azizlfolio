@@ -8,4 +8,4 @@ export const SITE_DESC = "Portfolio Website Template";
 export const SITE_KEYWORDS = "template, portfolio, high school, college, project, admissions, resume";
 
 // Canonical site URL
-export const SITE_URL = "https://josh-beck.github.io/Portfolio-Website-Template/";
+export const SITE_URL = "https://treadergames.github.io/azizlfolio/";
